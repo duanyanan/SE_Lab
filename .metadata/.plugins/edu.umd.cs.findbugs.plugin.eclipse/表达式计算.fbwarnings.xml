@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1476193677209" analysisTimestamp="1476193675139" release="">
+  <Project projectName="&#34920;&#36798;&#24335;&#35745;&#31639;">
+    <Jar>C:\Users\ANYUANZHI\Dropbox\&#21516;&#27493;\Project\GitHub\SE_Lab\&#34920;&#36798;&#24335;&#35745;&#31639;\bin</Jar>
+    <AuxClasspathEntry>C:\Users\ANYUANZHI\Dropbox\&#21516;&#27493;\Project\GitHub\SE_Lab\&#34920;&#36798;&#24335;&#35745;&#31639;\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_101\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\ANYUANZHI\Dropbox\&#21516;&#27493;\Project\GitHub\SE_Lab\&#34920;&#36798;&#24335;&#35745;&#31639;\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Class>
+    <Method classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" name="Command" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="472" end="511" startBytecode="0" endBytecode="152" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Method>
+    <LocalVariable name="var" register="3" pc="42" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="477" end="477" startBytecode="41" endBytecode="41" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="477" end="477" startBytecode="41" endBytecode="41" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="var"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_VOID_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Class>
+    <Method classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" name="Command" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="472" end="511" startBytecode="0" endBytecode="613" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Method>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="477" end="477" startBytecode="38" endBytecode="38" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="477" end="477" startBytecode="38" endBytecode="38" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Class>
+    <Method classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" name="Command" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="472" end="511" startBytecode="0" endBytecode="613" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Class>
+    <Method classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" name="Set" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" start="22" end="207" startBytecode="0" endBytecode="1922" sourcefile="Expression.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/Expression.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" sourcefile="PolynomialaArithmetic.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/PolynomialaArithmetic.java"/>
+    </Class>
+    <Method classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" start="9" end="48" startBytecode="0" endBytecode="474" sourcefile="PolynomialaArithmetic.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/PolynomialaArithmetic.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="PolynomialaArithmetic.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/PolynomialaArithmetic.java"/>
+    <SourceLine classname="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="PolynomialaArithmetic.java" sourcepath="&#34920;&#36798;&#24335;&#35745;&#31639;/PolynomialaArithmetic.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 11 Oct 2016 21:02:49 +0800" total_classes="2" referenced_classes="19" total_bugs="5" total_size="355" num_packages="1" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="7.17" clock_seconds="2.07" peak_mbytes="537.90" alloc_mbytes="1024.00" gc_seconds="0.06" priority_2="4" priority_1="1">
+    <PackageStats package="&#34920;&#36798;&#24335;&#35745;&#31639;" total_bugs="5" total_types="2" total_size="355" priority_2="4" priority_1="1">
+      <ClassStats class="&#34920;&#36798;&#24335;&#35745;&#31639;.Expression" sourceFile="Expression.java" interface="false" size="325" bugs="4" priority_2="4"/>
+      <ClassStats class="&#34920;&#36798;&#24335;&#35745;&#31639;.PolynomialaArithmetic" sourceFile="PolynomialaArithmetic.java" interface="false" size="30" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="211" invocations="30" avgMicrosecondsPerInvocation="7037" maxMicrosecondsPerInvocation="50224" standardDeviationMircosecondsPerInvocation="9274"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="203" invocations="2" avgMicrosecondsPerInvocation="101895" maxMicrosecondsPerInvocation="203120" standardDeviationMircosecondsPerInvocation="101224"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="197" invocations="366" avgMicrosecondsPerInvocation="538" maxMicrosecondsPerInvocation="22902" standardDeviationMircosecondsPerInvocation="1451"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="148" invocations="2" avgMicrosecondsPerInvocation="74201" maxMicrosecondsPerInvocation="123474" standardDeviationMircosecondsPerInvocation="49273"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="117" invocations="10" avgMicrosecondsPerInvocation="11734" maxMicrosecondsPerInvocation="48972" standardDeviationMircosecondsPerInvocation="15294"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="114" invocations="10" avgMicrosecondsPerInvocation="11434" maxMicrosecondsPerInvocation="54095" standardDeviationMircosecondsPerInvocation="15763"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="102" invocations="10" avgMicrosecondsPerInvocation="10212" maxMicrosecondsPerInvocation="32450" standardDeviationMircosecondsPerInvocation="11176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="81" invocations="19" avgMicrosecondsPerInvocation="4303" maxMicrosecondsPerInvocation="16991" standardDeviationMircosecondsPerInvocation="4920"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="74" invocations="91" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="7950" standardDeviationMircosecondsPerInvocation="1037"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="60" invocations="10" avgMicrosecondsPerInvocation="6040" maxMicrosecondsPerInvocation="23649" standardDeviationMircosecondsPerInvocation="6602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="59" invocations="9" avgMicrosecondsPerInvocation="6654" maxMicrosecondsPerInvocation="18567" standardDeviationMircosecondsPerInvocation="6420"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="56" invocations="19" avgMicrosecondsPerInvocation="2986" maxMicrosecondsPerInvocation="16358" standardDeviationMircosecondsPerInvocation="4250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="55" invocations="366" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="1113" standardDeviationMircosecondsPerInvocation="86"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="51" invocations="10" avgMicrosecondsPerInvocation="5172" maxMicrosecondsPerInvocation="16167" standardDeviationMircosecondsPerInvocation="5666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="44" invocations="19" avgMicrosecondsPerInvocation="2352" maxMicrosecondsPerInvocation="22924" standardDeviationMircosecondsPerInvocation="5007"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1476193677208" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

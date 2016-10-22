@@ -9,7 +9,6 @@ public class Polynomialarithmetic {
  * @param args
  */
 public static void main(final String[] args) {
-		// TODO 自动生成的方法存根
 		Scanner lalala = new Scanner(System.in);
 		String input;
 		int la=0;
